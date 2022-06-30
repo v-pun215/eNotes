@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&family=Lora&family=Nunito:wght@600&display=swap');
+html {
+    font-family: "Helevetica", sans-serif;
+  }
+  
+  body {
+    color: #333;
+    font-weight: 100;
+    max-width: 50em;
+    margin: 0 auto;
+    background-color:#333;
+  }
+  
+  div:focus {
+    outline: black;
+  }
+  
+  #heading {
+    color:white;
+    font-size: 48px;
+    padding-top: 30px;
+    padding-bottom:10px;
+  }
+  
+  #content {
+    color:white;
+    padding-top: 10px;
+    font-size: 24px;
+    padding-bottom:20px;
+  }
+  h1 {
+    color:white;
+    font-family: 'Lora', serif;
+  }
+.textstyle {
+    margin-top:20px;
+    background-color:#292828;
+    font-weight: lighter; /* Making font bold */
+    border-radius: 5px;
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding: 5px 30px 5px 30px; /* Making space around letters */
+    font-size: 18px; /* Changing font size */
+}
+hr {
+    background-color:#333;
+}
+p {
+    color:white;
+}
+.popup {
+    padding:17px;
+}
+#no {
+    float:right;
+    color:white;
+    background-color:#292828;
+    border:none;
+    width:50px;
+    height:50px;
+}
+#no:hover {
+    color:#de4337;
+}
+#no2 {
+    float:right;
+    color:white;
+    background-color:#292828;
+    border:none;
+    width:50px;
+    height:50px;
+    margin-top:-50px;
+}
+#no2:hover {
+    color:#de4337;
+}
